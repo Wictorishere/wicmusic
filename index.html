@@ -1,207 +1,0 @@
-<html>
-<head>
-    <title>WicMusic | مرجع دانلود آهنگ</title>
-    <link rel="icon" href="image/Wictor.png">
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    
-    <header>
-        <nav class="nav1">
-            <ul>
-                <a href="index.html" id="a1"><h1 id="h1">WicMusic</h1></a>
-                <pre>      wicmusic     </pre>
-                <div id="searchbox">
-                <input type="text" placeholder="search" id="search"  onkeyup="myFunction()">
-                </div>     
-                <script>
-function myFunction(){
-    const searchbox = document.getElementById("search").value.toUpperCase();
-    const songlist = document.getElementById("music");
-    const music = document.querySelectorAll(".music");
-    const name = songlist.getElementsByTagName("h3");
-
-    for(var i = 0; i < name.length; i++){
-        let match = music[i].getElementsByTagName("h3")[0];
-
-        if(match){
-            let textvalue = match.textContent || match.innerHTML
-
-            if(textvalue.toUpperCase().indexOf(searchbox) > -1){
-                music[i].style.display = "block";
-            }
-            else{
-                music[i].style.display = "none";
-            }
-        }
-    }
-}
-                </script>
-                <li><pre>              </pre></li>
-                <li><div id="ddm"><a  class="sabk" >🎸سبک</a>
-                    <div class="ddm">
-                        <a href="/Sabk/pop.html" >پاپ</a>
-                        <a href="/Sabk/rap.html" >رپ</a>
-                        <a href="/Sabk/funky.html" >فانکی</a>
-                        <a href="/Sabk/bikalam.html" >بی کلام</a>
-                        <a href="hsabk.html" >...همه</a>
-                    </div>
-                </div></li>
-                <li><div id="ddp"><a class="sabk" >🎹پلی لیست</a>
-                    <div class="ddp" >
-                        <a href="PlayLists/jadid.html" >جدید</a>
-                        <a href="PlayLists/pop.html" >پاپ</a>
-                        <a href="PlayLists/funky.html" >فانکی</a>
-                        <a href="PlayLists/rap.html" >رپ</a>
-                        <a href="PlayLists/nostalisia.htm" >نوستالوژی</a>
-                        <a href="PlayLists/wicmusic.html" >ویک موزیک</a>
-                        <a href="hpl.html" >...همه</a>
-                    </div>
-                </div></li>
-                <li><div id="ddj"><a  class="sabk" >🎧دی جی</a>
-                    <div class="ddj">
-                        <a href="/Music/DJs/AlanWalker/alanwalker.html" id="alanwalker1">الن واکر</a>
-                        <a href="/Music/DJs/Marshmello/marshmelo.html" id="marshmelo1">مارشملو</a>
-                        <a href="/Music/DJs/Khaled/khaled.html" id="khaled1">خالد</a>
-                        <a href="/Music/DJs/Snake/snake.html" id="snake1">اسنیک</a>
-                        <a href="/Music/DJs/David Guetta/davidguetta.html" id="davidgueta1">داوید گوتا</a>
-                        <a href="hdj.html" >...همه</a>
-                    </div>
-                </div></li>
-                <li><div id="dds"><a class="sabk" >🎤خواننده</a>
-                    <div class="dds">
-                        <a href="/Music/Singers/Taylor Swift/taylorswift.html" id="taylorswift1">تیلور سویفت</a>
-                        <a href="/Music/Singers/Eminem/eminem.html" id="eminem1">امینم</a>
-                        <a href="/Music/Singers/Billie Eilish/billieeilish.html" id="billieeilish1">بیلی آیلیش</a>                        
-                        <a href="/Music/Singers/Sia/sia.html" id="sia1">سیا</a>
-                        <a href="/Music/Singers/Adele/adele.html" id="adele1">ادل</a>
-                        <a href="/Music/Singers/Becky G/beckyg.html" id="beckyg1">بکی جی</a>
-                        <a href="/Music/Singers/Ariana Grande/ariana.html" id="ariana1">آریانا گراندی</a>
-                        <a href="/Music/Singers/Dua Lipa/dualipa.html" id="dualipa1">دوا لیپا</a>
-                        <a href="/Music/Singers/Ed Sheeran/edsheeran.html" id="edshiran1">اد شیران</a>
-                        <a href="/Music/Singers/Halsey/halsey.html" id="halsey1">هالزی</a>
-                        <a href="/hkh.html" >...همه</a>
-                    </div>
-                </div></li>
-                <pre>                      </pre>  
-                   <div id="ddb">
-                    <img src="image/R.png" alt="MENU" id="menu">
-                    <div class="ddb">
-
-                        <div id="ddmm"><a>🎸سبک</a>
-                            <div class="ddmm">
-                        <a href="/Sabk/pop.html" >پاپ</a>
-                        <a href="/Sabk/rap.html" >رپ</a>
-                        <a href="/Sabk/funky.html" >فانکی</a>
-                        <a href="/Sabk/bikalam.html" >بی کلام</a>
-                        <a href="hsabk.html" >...همه</a>
-                            </div>
-                        </div>
-                        <div id="ddpp"><a>🎹پلی لیست</a>
-                            <div class="ddpp">
-                                <a href="PlayLists/jadid.html" >جدید</a>
-                                <a href="PlayLists/pop.html" >پاپ</a>
-                                <a href="PlayLists/funky.html" >فانکی</a>
-                                <a href="PlayLists/rap.html" >رپ</a>
-                                <a href="PlayLists/nostalisia.htm" >نوستالوژی</a>
-                                <a href="PlayLists/wicmusic.html" >ویک موزیک</a>
-                                <a href="hpl.html" >...همه</a>
-                            </div>
-                        </div>
-                        <div id="ddjj"><a>🎧دی جی</a>
-                            <div class="ddjj">
-                        <a href="/Music/DJs/AlanWalker/alanwalker.html" id="alanwalker11">الن واکر</a>
-                        <a href="/Music/DJs/Marshmello/marshmelo.html" id="marshmelo11">مارشملو</a>
-                        <a href="/Music/DJs/Khaled/khaled.html" id="khaled11">خالد</a>
-                        <a href="/Music/DJs/Snake/snake.html" id="snake11">اسنیک</a>
-                        <a href="/Music/DJs/David Guetta/davidguetta.html" id="davidgueta11">داوید گوتا</a>
-                        <a href="hdj.html" >...همه</a>
-                            </div>
-                        </div>
-                        <div id="ddbb"><a >🎤خواننده</a>
-                            <div class="ddbb">
-                        <a href="/Music/Singers/Taylor Swift/taylorswift.html" id="taylorswift11">تیلور سویفت</a>
-                        <a href="/Music/Singers/Eminem/eminem.html" id="eminem11">امینم</a>
-                        <a href="/Music/Singers/Billie Eilish/billieeilish.html" id="billieeilish11">بیلی آیلیش</a>                        
-                        <a href="/Music/Singers/Sia/sia.html" id="sia11">سیا</a>
-                        <a href="/Music/Singers/Adele/adele.html" id="adele11">ادل</a>
-                        <a href="/Music/Singers/Becky G/beckyg.html" id="beckyg11">بکی جی</a>
-                        <a href="/Music/Singers/Ariana Grande/ariana.html" id="ariana11">آریانا گراندی</a>
-                        <a href="/Music/Singers/Dua Lipa/dualipa.html" id="dualipa11">دوا لیپا</a>
-                        <a href="/Music/Singers/Ed Sheeran/edsheeran.html" id="edshiran11">اد شیران</a>
-                        <a href="/Music/Singers/Halsey/halsey.html" id="halsey11">هالزی</a>
-                        <a href="/hkh.html" >...همه</a>
-                            </div>
-                        </div>
-                        
-                    </div>               
-                   </div>
-    </header>
-
-    <main>
-    <div id="background"> 
-        <div id="mainmain">
-            <div id="news">
-                <div id="newss">
-                    <div id="newsh1">
-                        <h1>اخبار</h1>
-                    </div>
-                    <div id="newsnews">
-                        <a href="">تیلور سوییفت : این بهترین آلبوم زندگیم است📃</a>
-                        <br>
-                        <a href="">آلبوم جدید امینم منتشر شد🎵</a>
-                        <br>
-                        <a href="">آلبوم جدید امینم منتشر شد🔔</a>
-                        <br>
-                        <a href="">آلبوم جدید امینم منتشر شد📽️</a>
-                        <br>
-                        <a href="">آلبوم جدید امینم منتشر شد📷</a>
-                        <br>
-                    </div>
-                </div>
-            </div>
-            <div id="music">
-                        <div id="NotOverYet" class="music">
-                    <pre><h3>Past Lives  دانلود ریمیکس آهنگ
-Sapientdream   از</h3></pre>
-                    <img src="Music/Others/Past Lives/past lives bg.jpg" height="370px" alt="">
-                    <h4>WicMusic</h4>
-                    <a href="pastlives.html"><span>
-                    ادامه و دانلود  
-                    </span></a>
-                        </div>
-                        <div id="NotOverYet" class="music">
-                        <pre><h3>Not Over Yet  دانلود آهنگ
-KSI & Tom Grennam  از</h3></pre>
-                        <img src="Music/Singers/KSI/not over yet/image/folder.jpg" height="370px" alt="">
-                        <h4>WicMusic</h4>
-                        <a href="Music/Singers/KSI/not over yet/notoveryet.html"><span>
-                            ادامه و دانلود  
-                         </span></a>
-                        </div>  
-                        <div id="Somethingjustlikethat" class="music">
-                         <pre><h3>Something Just Like That  دانلود آهنگ
-ChainSmokers & ColdPlay  از</h3></pre>
-                        <img src="Music/Singers/ChainSmokers/Somthing Just Like That/image/Something Just Like that BG.jpg" height="370px" alt="">
-                        <h4>WicMusic</h4>
-                        <a href="Music/Singers/ChainSmokers/Somthing Just Like That/Somethingjustlikethat.html"><span>
-                            ادامه و دانلود
-                        </span></a>
-                    </div>     
-            </div>
-        </div>
-    </div>
-    </main>
-
-    <footer>
-        <div>
-            <div class="divv" id="div12"><pre>
-<a href="/wictor.html">Wictor</a>
-<a href="/sites.htm">سایت ها</a></pre></div>
-            <div class="divv" id="div22"><pre>
-<a href="/contactus.html">ارتباط با ما</a>
-<a href="/aboutus.html">درباره ما</a></pre></div>
-        </div>
-    </footer>
-</body>
-</html>
