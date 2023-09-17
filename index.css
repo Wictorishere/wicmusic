@@ -1,0 +1,660 @@
+*{
+    font-family: 'Lalezar','Parastoo Print','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+* a{
+    text-decoration: none;
+}
+body{
+    margin: 0%;
+}
+#h1{ 
+    padding-top: 3px;
+    margin: 0px;
+    font-size: 40px;
+    text-shadow: 2px 2px 10px rgb(46, 39, 39);
+}
+#a1:hover{
+    background-color: rgb(0, 187, 255);
+}
+#a1{
+    margin-top: 2px;
+    padding-right: 15px;
+    padding-top: 1px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+    
+}
+#buttonmenu{
+    display: none;
+}
+.nav1 pre{
+    color: rgb(0, 187, 255);
+}
+.nav1 ul{
+    display: flex;
+    margin-bottom: 0%;
+    justify-content: center;
+    list-style-type: none;
+    background-color: rgb(0, 187, 255);
+    width: 97.5%;
+    list-style-type: none;
+    overflow: hidden;
+}
+.nav1 a{   
+    color: rgb(255, 255, 255);
+    text-decoration: none;    
+    display: block;
+}
+.nav1 a:hover{
+    background-color: rgb(255, 255, 255);
+}
+.nav1 li{
+    text-align: center;
+    text-shadow: 2px 2px 10px rgb(46, 39, 39); 
+    font-size: 20px;
+    float: right; 
+}
+header form{
+    padding-top: 17px;
+    border: 2px 2px 10px red;
+}
+#searchbox{
+    padding-top: 19.5px;
+}
+#search{
+   padding-left: 28px;
+   font-size: 17px;
+   width: 250px;
+   height: 30px; 
+   padding-top: 5px;
+   padding-bottom: 1px;
+   border-radius: 20px;
+   border: none;
+   border: 1.5px dashed rgb(0, 0, 0);
+   background-image: url('image/search-icon.png');
+   background-size: 18px;
+   background-repeat: no-repeat;
+   background-position: 5px;
+   box-shadow: 2px 2px 8px rgb(255, 255, 255);
+}
+#search:hover{
+    border: 1.5px solid rgb(9, 8, 8);
+}
+.ddm{
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 18, 137);
+    box-shadow: 0px 0px 10px rgb(0, 229, 255);
+    border-radius: 5px;
+    width: 93px;
+    
+}
+.ddp{
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 18, 137);
+    box-shadow: 0px 0px 10px rgb(0, 229, 255);
+    border-radius: 5px;
+    width: 127px;
+}
+.ddj{
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 18, 137);
+    box-shadow: 0px 0px 10px rgb(0, 229, 255);
+    border-radius: 5px;
+    width: 108px;
+    margin-right: 100px;
+}
+.dds{
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 18, 137);
+    box-shadow: 0px 0px 10px rgb(0, 229, 255);
+    border-radius: 5px;
+    width: 110px; 
+}
+#dds:hover .dds{
+    display: block;
+    position: 0px 10px;
+}
+#ddj:hover .ddj{
+    display: block;
+}
+#ddp:hover .ddp{
+    display: block;
+}
+#ddm:hover .ddm{
+    display: block;
+}
+.sabk{
+    padding-left: 15px;
+    padding-top: 17px;
+    padding-bottom: 23px;
+    padding-right: 15px;
+}
+#ddb{
+    display: none;
+}
+#ddm{
+    cursor: pointer;
+}
+#ddp{
+    cursor: pointer;
+}
+#dds{
+    cursor: pointer;
+}
+#ddj{
+    cursor: pointer;
+}
+
+
+#background{
+    background-color: rgb(246, 242, 242);
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+#mainmain{
+    height: auto;
+    width: 1060px;
+    background-color: rgb(249, 249, 249);
+    box-shadow: 0px 0px 6px rgb(214, 212, 212);
+    text-align: center;
+    display: flex;
+}
+#music{
+    background-color: rgb(249, 249, 249);
+    width: 70%;
+    height: auto;
+    margin-top: 10px;
+    display: block;
+    justify-content: center;
+}
+#music h4{
+    margin: 8px;
+    font-size: 20px;
+}
+.music{
+    margin: 12px;
+    box-shadow: 0px 0px 10px rgb(0, 229, 255);
+    border: 2px solid rgb(255, 18, 137);
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 10%;
+    height: 590px;
+    background-color: rgb(249, 249, 249);
+    display: block;
+    overflow: hidden;
+}
+#music span{
+    font-size: 24px;
+    color: black;
+    margin-top : 0px;
+    margin-left: 63px;
+    border-radius: 3px;
+    display: block;
+    height: 35px;
+    width: 370px;
+    box-shadow: 0px 0px 6px rgb(255, 18, 137);
+    background-color: rgb(0, 229, 255);
+}
+#music img{
+    box-shadow: 0px 0px 6px rgb(255, 18, 137);
+}
+#music h3{
+  
+    margin: 0px;
+    margin-top: 15px;
+    font-size: 25px;
+}
+#music pre{
+    padding: 10px;
+    font-size: 15px;
+    margin: 0px;
+    text-align: center;
+}
+#news{
+    padding-bottom: 80px;
+    width: 50%;
+    height: auto;
+    background-color: rgb(249, 249, 249);
+    display: block;
+    justify-content: center;
+}
+#newss{
+    margin-left: 7.5%;
+    margin-top: 20px;
+    width: 90%;
+    height: 1300px;
+    background-color: rgb(235, 233, 233);
+    box-shadow: 0px 0px 10px rgb(0, 229, 255);
+    border-radius: 10px;
+}
+#newsh1{
+    background-color: rgb(255, 18, 137);
+    border-radius: 10px;
+    font-size: 15px;
+    height: 46px;
+}
+#newsh1 h1{
+    margin: 10px;
+    color: white;
+}
+#newsnews::-webkit-scrollbar{
+    display: none;
+}
+#newsnews{
+    text-align: right;
+    margin-right: 3px;
+    color: rgb(255, 255, 255);
+    overflow: scroll;
+    height: 1254px;
+    margin-top: 3px;
+}
+#newsnews a{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+#newsnews a:hover{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 7px rgb(0, 229, 255);
+}
+footer div{
+    background-color: rgb(0, 229, 255);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.divv{
+    background-color: rgb(24, 213, 213);
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(255, 18, 137);
+    background-color: rgb(0, 255, 17);
+    height: 400px;
+    width: 19%;
+    padding-right: 5%;
+    padding-left:5% ;
+    font-size: 60px;
+    text-align: center;
+}
+.divv a{
+    color: black;
+}
+
+.dds a:hover{
+    font-size: 23px;
+    text-shadow: 0px 0px 6px rgb(0, 0, 0) ;
+}
+.ddj a:hover{
+    font-size: 25px;
+    text-shadow: 0px 0px 6px rgb(0, 0, 0) ;
+}
+.ddp a:hover{
+    font-size: 25px;
+    text-shadow: 0px 0px 6px rgb(0, 0, 0) ;
+}
+.ddm a:hover{
+    font-size: 25px;
+    text-shadow: 0px 0px 6px rgb(0, 0, 0) ;
+}
+
+#davidgueta1{
+    background-image: url('/image/david_gueta.jpg');
+    background-size: 110px;
+    background-repeat: no-repeat;
+}
+#alanwalker1{
+    background-image: url('/image/alan\ walker.jpg');
+    background-size: 110px;
+    background-repeat: no-repeat;
+}
+#snake1{
+    background-image: url('/image/snake.jpg');
+    background-size: 110px;
+    background-repeat: no-repeat;
+}
+#khaled1{
+    background-image: url('/image/khaled.jpg');
+    background-size: 110px;
+    background-repeat: no-repeat;
+}
+#marshmelo1{
+    background-image: url('/image/marshmalo.jpg');
+    background-size: 110px;
+    background-repeat: no-repeat;
+}
+#billieeilish1{
+    background-image: url('/image/billie-eilish.jpg');
+    background-size: 110px;
+    background-repeat: no-repeat;
+}
+#taylorswift1{
+    background-image: url('/image/tumblr_9c94c418126b6e95a5dcbeeb7e666eb9_a451279d_500.gif');
+    background-size: 115px;
+    background-repeat: no-repeat;
+}
+#eminem1{
+    background-image: url('/image/eminem.webp');
+    background-size: 115px;
+    background-repeat: no-repeat;
+}
+#sia1{
+    background-image: url('/image/sia.jpg');
+    background-size: 115px;
+    background-repeat: no-repeat;
+}
+#adele1{
+    background-image: url('/image/adele.jpg');
+    background-size: 115px;
+    background-repeat: no-repeat;
+}
+#beckyg1{
+    background-image: url('/image/becky\ g.png');
+    background-size: 115px;
+    background-repeat: no-repeat;
+}
+#edshiran1{
+    background-image: url('/image/ed\ shiran.jpg');
+    background-size: 125px;
+    background-repeat: no-repeat;
+    background-position: 0px -8px;
+}
+#dualipa1{
+    background-image: url('/image/dua\ lipa.png');
+    background-size: 115px;
+    background-repeat: no-repeat;
+}
+#halsey1{
+    background-image: url('/image/halsey.jpg');
+    background-size: 115px;
+    background-repeat: no-repeat;
+}
+#ariana1{
+    background-image: url('/image/ariana\ grande.jpg');
+    background-size: 115px;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width:1064px){
+    #h1{
+        margin-top: 5px;
+    }
+    .nav1 ul{
+        width: 100%;
+    }
+    .nav1 li{
+        display: none;
+    }
+    #ddb{
+        width:340px;
+    }
+    #h1{
+        font-size: 30px;
+        padding-top: 6px;
+    }
+    form{
+        padding: 7px;
+    }
+    #ddb{
+        display: block;
+    }
+    #ddb img{
+        height: 35px;
+        cursor: pointer;
+        padding-left: 260px;
+        padding-top: 18px;
+        padding-bottom: 16px;
+    }
+   
+    .nav1 ul{
+        padding: 0;
+
+    }
+    #search{
+        
+        width: 300px;
+    }
+    .ddb a{
+        padding: 8px;
+    }
+    .ddb{
+        font-size: 15px;
+        text-shadow: 2px 2px 10px rgb(61, 45, 45); 
+        position: absolute;
+        text-align: center;
+        background-color: rgb(255, 18, 137);
+        box-shadow: 0px 0px 10px rgb(0, 229, 255);
+        border-radius: 5px;
+        margin-right: 100px;
+        width: 305px;
+        cursor: pointer;
+        display: none;
+    }
+    #ddb:hover .ddb{
+        display: flex;
+    }
+    .ddbb{
+        position: absolute;
+        display: none;
+        background-color: rgb(255, 18, 137);
+        box-shadow: 0px 0px 10px rgb(0, 229, 255);
+        border-radius: 5px;
+        width: 75px;
+        text-align: center;
+        text-shadow: 2px 2px 10px rgb(46, 39, 39);
+        font-size: 14px;
+    }
+    #ddbb:hover .ddbb{
+        display: block;
+    }
+    .ddpp{
+        font-size: 17px;
+        position: absolute;
+        display: none;
+        background-color: rgb(255, 18, 137);
+        box-shadow: 0px 0px 10px rgb(0, 229, 255);
+        border-radius: 5px;
+        width: 92px;
+        text-align: center;
+        text-shadow: 2px 2px 10px rgb(46, 39, 39);
+    }
+    #ddpp:hover .ddpp{
+        display: block;
+    }
+    .ddjj{
+        font-size: 17px;
+        position: absolute;
+        display: none;
+        background-color: rgb(255, 18, 137);
+        box-shadow: 0px 0px 10px rgb(0, 229, 255);
+        border-radius: 5px;
+        width: 75px;
+        text-align: center;
+        text-shadow: 2px 2px 10px rgb(46, 39, 39);
+    }
+    #ddjj:hover .ddjj{
+        display: block;
+    }
+    .ddmm{
+        font-size: 17px;
+        position: absolute;
+        display: none;
+        background-color: rgb(255, 18, 137);
+        box-shadow: 0px 0px 10px rgb(0, 229, 255);
+        border-radius: 5px;
+        width: 64px;
+        text-align: center;
+        text-shadow: 2px 2px 10px rgb(46, 39, 39);
+    }
+    #ddmm:hover .ddmm{
+        display: block;
+    }
+    #music span{
+        margin-left: 45px;
+    }
+    
+
+
+    #davidgueta11{
+        background-image: url('/image/david_gueta.jpg');
+        background-size: 110px;
+        background-repeat: no-repeat;
+        background-position: -19px -3px;
+    }   
+    #alanwalker11{
+        background-image: url('/image/alan\ walker.jpg');
+        background-size: 110px;
+        background-repeat: no-repeat;
+        background-position: -19px -3px;
+    }
+    #snake11{
+        background-position: -13px -2px;
+        background-image: url('/image/snake.jpg');
+        background-size: 110px;
+        background-repeat: no-repeat;
+    }
+    #khaled11{
+        background-position: -19px -3px;
+        background-image: url('/image/khaled.jpg');
+        background-size: 110px;
+        background-repeat: no-repeat;
+    }
+    #marshmelo11{
+        background-position: -19px -3px;
+        background-image: url('/image/marshmalo.jpg');
+        background-size: 110px;
+        background-repeat: no-repeat;
+    }
+    #billieeilish11{
+        background-image: url('/image/billie-eilish.jpg');
+        background-size: 110px;
+        background-repeat: no-repeat;
+        background-position: -20px 0px;
+    }
+    #taylorswift11{
+        font-size: 12px;
+        background-image: url('/image/tumblr_9c94c418126b6e95a5dcbeeb7e666eb9_a451279d_500.gif');
+        background-size: 115px;
+        background-repeat: no-repeat;
+        background-position: -20px 0px;
+    }
+    #eminem11{
+        background-image: url('/image/eminem.webp');
+        background-size: 115px;
+        background-repeat: no-repeat;
+        background-position: -22px 0px;
+    }
+    #sia11{
+        background-image: url('/image/sia.jpg');
+        background-size: 115px;
+        background-repeat: no-repeat;
+        background-position: -16px 0px;
+    }
+    #adele11{
+        background-image: url('/image/adele.jpg');
+        background-size: 115px;
+        background-repeat: no-repeat;
+        background-position: -13px 0px;
+    }
+    #beckyg11{
+        background-image: url('/image/becky\ g.png');
+        background-size: 115px;
+        background-repeat: no-repeat;
+        background-position: -20px 0px;
+    }
+    #edshiran11{
+        background-image: url('/image/ed\ shiran.jpg');
+        background-size: 115px;
+        background-repeat: no-repeat;
+        background-position: -7px 0px;
+    }
+    #dualipa11{
+        background-image: url('/image/dua\ lipa.png');
+        background-size: 115px;
+        background-repeat: no-repeat;
+        background-position: -20px 0px;
+    }
+    #halsey11{
+        background-image: url('/image/halsey.jpg');
+        background-size: 115px;
+        background-repeat: no-repeat;
+        background-position: -20px 0px;
+    }
+    #ariana11{
+        background-image: url('/image/ariana\ grande.jpg');
+        background-size: 115px;
+        background-repeat: no-repeat;
+        background-position: -19px 0px;
+    }
+}
+@media screen and (max-width:970px){
+    #news{
+        display: none;
+    }
+    #music{
+        width: 100%;
+    }
+    #music span{
+        margin-left: 175px;
+    }
+}
+@media screen and (max-width:910px){
+    #music span{
+        margin-left: 160px;
+    }
+}
+@media screen and (max-width:850px){
+    #music span{
+        margin-left: 140px;
+    }
+}
+@media screen and (max-width:800px){
+    #music span{
+        margin-left: 115px;
+    }
+}
+@media screen and (max-width:750px){
+    #music span{
+        margin-left: 95px;
+    }
+}
+@media screen and (max-width:700px){
+    #music span{
+        margin-left: 72px;
+    }
+}
+@media screen and (max-width:650px){
+    #music span{
+        margin-left: 56px;
+    }
+}
+@media screen and (max-width:600px){
+    #music span{
+        margin-left: 38px;
+    }
+}
+@media screen and (max-width:539px){
+    #music span{
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width:500px){
+    #music span{
+        margin-left: 7px;
+    }
+}
+@media screen and (max-width:480px){
+    #music span{
+        margin-left: 0px;
+    }
+}
